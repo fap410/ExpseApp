@@ -34,7 +34,7 @@ app.post('/api/expenses', async (req, res) => {
         ) {
             return res.status(400).json({
                 success: false,
-                message: 'userid, positive amount, roomid and added_by are required'
+                message: 'userid a<dd, positive amount, roomid and added_by are required'
             });
         }
 
